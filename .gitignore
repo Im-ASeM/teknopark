@@ -1,2 +1,25 @@
+# dependencies
 website/node_modules
+
+# next.js build
 website/.next
+website/out
+
+# env files
+.env
+.env.*
+website/.env
+website/.env.*
+
+# debug logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/settings.json
+.idea/
