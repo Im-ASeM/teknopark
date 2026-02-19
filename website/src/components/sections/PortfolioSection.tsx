@@ -14,10 +14,10 @@ type Project = {
 };
 
 const projects: Project[] = [
-  { titleKey: "project1", image: "/images/portfolio_01.jpg", tagKeys: ["tag1", "tag2"], category: "development" },
-  { titleKey: "project2", image: "/images/portfolio_02.jpg", tagKeys: ["tag3", "tag4"], category: "digital" },
-  { titleKey: "project3", image: "/images/portfolio_03.jpg", tagKeys: ["tag5", "tag6"], category: "technology" },
-  { titleKey: "project4", image: "/images/blog_10.jpg", tagKeys: ["tag7", "tag8"], category: "marketing" },
+  { titleKey: "project1", image: "/teknopark/images/portfolio_01.jpg", tagKeys: ["tag1", "tag2"], category: "development" },
+  { titleKey: "project2", image: "/teknopark/images/portfolio_02.jpg", tagKeys: ["tag3", "tag4"], category: "digital" },
+  { titleKey: "project3", image: "/teknopark/images/portfolio_03.jpg", tagKeys: ["tag5", "tag6"], category: "technology" },
+  { titleKey: "project4", image: "/teknopark/images/blog_10.jpg", tagKeys: ["tag7", "tag8"], category: "marketing" },
 ];
 
 export function PortfolioSection() {

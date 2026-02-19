@@ -4,10 +4,10 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "@/lib/navigation";
 
 const PERSON_AVATARS = [
-  "/images/person_02_home02-PYL7GTL-4-4-10.jpg",
-  "/images/person_02_home02-S62PMRE-4-4-10.jpg",
-  "/images/person_03_home02-X6ULBD4-4-4-10.jpg",
-  "/images/person_04_home02-HCBTU9A-4-4-10.jpg",
+  "/teknopark/images/person_02_home02-PYL7GTL-4-4-10.jpg",
+  "/teknopark/images/person_02_home02-S62PMRE-4-4-10.jpg",
+  "/teknopark/images/person_03_home02-X6ULBD4-4-4-10.jpg",
+  "/teknopark/images/person_04_home02-HCBTU9A-4-4-10.jpg",
 ] as const;
 
 export async function Hero() {
@@ -20,7 +20,7 @@ export async function Hero() {
         <div className="relative z-[3] flex flex-col gap-0 lg:w-[65%] lg:pl-[120px] max-lg:pl-0">
           {/* Floating dot decoration */}
           <div className="pointer-events-none absolute top-[24%] -left-[12%] z-0 animate-[heroFloat_4s_ease-in-out_infinite]">
-            <Image src="/images/cmn-dost-4-4-10.png" alt="" width={130} height={130} aria-hidden />
+            <Image src="/teknopark/images/cmn-dost-4-4-10.png" alt="" width={130} height={130} aria-hidden />
           </div>
 
           {/* Headline */}
@@ -53,7 +53,7 @@ export async function Hero() {
           <div className="flex flex-col gap-[26px] lg:flex-row lg:items-center">
             <div className="shrink-0 lg:w-[31%]">
               <Image
-                src="/images/persson_05_home02-PZ7V7CU-4-4-10.jpg"
+                src="/teknopark/images/persson_05_home02-PZ7V7CU-4-4-10.jpg"
                 alt=""
                 width={520}
                 height={224}
@@ -81,7 +81,7 @@ export async function Hero() {
           {/* Rotating arrow */}
           <div className="absolute -left-[128px] top-[8px] z-0 max-lg:hidden">
             <Image
-              src="/images/arrow-cmn-7-4-10.png"
+              src="/teknopark/images/arrow-cmn-7-4-10.png"
               alt=""
               width={480}
               height={480}
@@ -93,7 +93,7 @@ export async function Hero() {
           {/* Hero image */}
           <div className="relative z-[2]">
             <Image
-              src="/images/hero-v2-thumb-4-4-10.png"
+              src="/teknopark/images/hero-v2-thumb-4-4-10.png"
               alt=""
               width={534}
               height={643}

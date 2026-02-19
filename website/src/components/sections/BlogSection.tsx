@@ -4,9 +4,9 @@ import { Link } from "@/lib/navigation";
 import { ArrowRight, Calendar, User } from "lucide-react";
 
 const posts = [
-  { titleKey: "post1Title", image: "/images/blog_06.jpg", dateKey: "post1Date", slug: "creating-new-working-in-the-digital" },
-  { titleKey: "post2Title", image: "/images/blog_05.jpg", dateKey: "post2Date", slug: "design-inspiration-where-to-find" },
-  { titleKey: "post3Title", image: "/images/blog_04.jpg", dateKey: "post3Date", slug: "transforming-challenges-into" },
+  { titleKey: "post1Title", image: "/teknopark/images/blog_06.jpg", dateKey: "post1Date", slug: "creating-new-working-in-the-digital" },
+  { titleKey: "post2Title", image: "/teknopark/images/blog_05.jpg", dateKey: "post2Date", slug: "design-inspiration-where-to-find" },
+  { titleKey: "post3Title", image: "/teknopark/images/blog_04.jpg", dateKey: "post3Date", slug: "transforming-challenges-into" },
 ] as const;
 
 export async function BlogSection() {

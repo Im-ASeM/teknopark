@@ -57,7 +57,7 @@ export function Header({ locale }: { locale: string }) {
       <div className="mx-auto flex max-w-[1540px] items-center justify-between px-4 lg:px-[15px]">
         <Link href="/" className="shrink-0 py-4">
           <Image
-            src="/images/logo.png"
+            src="/teknopark/images/logo.png"
             alt="Xstar"
             width={140}
             height={28}

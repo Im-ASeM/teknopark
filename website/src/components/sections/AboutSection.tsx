@@ -2,9 +2,9 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 const clientLogos = [
-  { src: "/images/c1-5-4-10.png", width: 181, height: 45 },
-  { src: "/images/c2-5-4-10.png", width: 130, height: 72 },
-  { src: "/images/c3-5-4-10.png", width: 168, height: 53 },
+  { src: "/teknopark/images/c1-5-4-10.png", width: 181, height: 45 },
+  { src: "/teknopark/images/c2-5-4-10.png", width: 130, height: 72 },
+  { src: "/teknopark/images/c3-5-4-10.png", width: 168, height: 53 },
 ];
 
 export async function AboutSection() {
@@ -17,7 +17,7 @@ export async function AboutSection() {
         <div className="relative lg:w-[51.5%]">
           <div className="relative overflow-hidden rounded-xl">
             <Image
-              src="/images/about_home02-8VQQR39-4-4-10.jpg"
+              src="/teknopark/images/about_home02-8VQQR39-4-4-10.jpg"
               alt=""
               width={690}
               height={532}
@@ -25,10 +25,10 @@ export async function AboutSection() {
               sizes="(max-width: 1024px) 100vw, 690px"
             />
             <div className="absolute top-6 right-6 rtl:left-6 rtl:right-auto" aria-hidden>
-              <Image src="/images/icon-5-4-10.png" alt="" width={66} height={79} className="drop-shadow-lg" />
+              <Image src="/teknopark/images/icon-5-4-10.png" alt="" width={66} height={79} className="drop-shadow-lg" />
             </div>
             <div className="absolute bottom-6 left-6 rtl:right-6 rtl:left-auto" aria-hidden>
-              <Image src="/images/icon-2-4-4-10.png" alt="" width={66} height={79} className="drop-shadow-lg" />
+              <Image src="/teknopark/images/icon-2-4-4-10.png" alt="" width={66} height={79} className="drop-shadow-lg" />
             </div>
           </div>
         </div>

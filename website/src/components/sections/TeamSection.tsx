@@ -4,10 +4,10 @@ import { ArrowRight, Linkedin, Twitter } from "lucide-react";
 import { Link } from "@/lib/navigation";
 
 const team = [
-  { nameKey: "member1Name", roleKey: "member1Role", image: "/images/team5-4-4-10.jpg" },
-  { nameKey: "member2Name", roleKey: "member2Role", image: "/images/team6-4-4-10.png" },
-  { nameKey: "member3Name", roleKey: "member3Role", image: "/images/team7-4-4-10.png" },
-  { nameKey: "member4Name", roleKey: "member4Role", image: "/images/team8-4-4-10.png" },
+  { nameKey: "member1Name", roleKey: "member1Role", image: "/teknopark/images/team5-4-4-10.jpg" },
+  { nameKey: "member2Name", roleKey: "member2Role", image: "/teknopark/images/team6-4-4-10.png" },
+  { nameKey: "member3Name", roleKey: "member3Role", image: "/teknopark/images/team7-4-4-10.png" },
+  { nameKey: "member4Name", roleKey: "member4Role", image: "/teknopark/images/team8-4-4-10.png" },
 ] as const;
 
 export async function TeamSection() {
